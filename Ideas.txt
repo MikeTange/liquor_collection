@@ -1,0 +1,41 @@
+IDEAS FOR LIQUOR COLLECTION PROJECT:
+
+Essentially a database to be accessed through an app. First draft will be without an app or anything - just python script. 
+Second step might be turning it into a web application. Finally, turning it into an app. 
+
+The basis for the Python script will be a sort of logger, containing a bunch of information for each bottle. Not every bottle needs all information to be provided. 
+The information will be stored on a per-bottle basis. The information will be:
+- type of liquor (whisky, gin, etc.)
+- datestamp (when consumed, bought, added, or something else)
+- a picture of the glass / bottle (or multiple pictures)
+- a rating (10-point scale), with possible sub-ratings
+- location where we had it
+
+For whiskys specifically:
+- type of whisky (Bourbon, Scotch, Irish, etc.)
+- region of the whisky (particularly for Scotch)
+- brand / label
+- age
+- edition
+- aging casket(s)
+- bottling year
+- taste (nose, notes & finish)
+
+For gins:
+- country
+- region
+- type (e.g., spicy)
+- tonic(s) to pair with
+- herbals / florals
+
+
+First ideas / challenges for the Python script:
+
+Challenge: how to store the data?
+Idea(s): OOP format, Pandas dataframe
+
+Challenge: how to save the data?
+Idea(s): JSON (?), .txt
+
+Challenge: how to interact with the script to add new entries?
+Idea(s): input prompt, sending a picture & auto-filling details through Google image search
